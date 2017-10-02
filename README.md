@@ -15,7 +15,7 @@ There is more than 2000 of them...😂
 To use those fonts simply create a text entity with the attribute `font` and `shader: msdf;` (very important).
 
 ```html
-<a-entity text="value:Hello; color:#FFFFFF; shader: msdf; font:https://cdn.rawgit.com/etiennepinchon/aframe-fonts/master/fonts/creepster/Creepster-Regular.json;" position="6.7 1 -2"></a-entity>     
+<a-entity text="value:Hello; color:#FFFFFF; shader: msdf; font:https://raw.githubusercontent.com/etiennepinchon/aframe-fonts/master/fonts/creepster/Creepster-Regular.json;" position="6.7 1 -2"></a-entity>     
 ```
 
 All the fonts can be served using this template:
