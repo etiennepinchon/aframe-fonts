@@ -15,7 +15,12 @@ There is more than 2000 of them...😂
 To use those fonts simply create a text entity with the attribute `font` and `shader: msdf;` (very important).
 
 ```html
-<a-entity text="value:Hello; color:#FFFFFF; shader: msdf; font:/fonts/creepster/Creepster-Regular.json;" position="6.7 1 -2"></a-entity>     
+<a-entity text="value:Hello; color:#FFFFFF; shader: msdf; font:https://cdn.rawgit.com/etiennepinchon/aframe-fonts/master/fonts/creepster/Creepster-Regular.json;" position="6.7 1 -2"></a-entity>     
+```
+
+All the fonts can be served using rawgit at:
+```
+https://cdn.rawgit.com/etiennepinchon/aframe-fonts/master/fonts/[FONT_NAME]/[FONT_TYPE].json
 ```
 
 Note that if you wish to download the font files, make sure you have both the .json and .png. A-Frame will automatically import the .png file.
