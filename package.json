@@ -1,0 +1,34 @@
+{
+  "name": "a-fonts",
+  "version": "1.0.0",
+  "description": "Google Fonts for A-Frame",
+  "main": "generate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "budo --live --verbose --port 3000 --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etiennepinchon/a-fonts.git"
+  },
+  "keywords": [
+    "A-Frame",
+    "VR",
+    "Google",
+    "Fonts",
+    "fonts"
+  ],
+  "author": "Etienne Pinchon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/etiennepinchon/a-fonts/issues"
+  },
+  "homepage": "https://github.com/etiennepinchon/a-fonts#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "msdf-bmfont": "^1.0.1"
+  },
+  "devDependencies": {
+    "budo": "^10.0.4"
+  }
+}
