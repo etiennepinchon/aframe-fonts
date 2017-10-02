@@ -2,7 +2,7 @@
 
 Fonts are important, by default A-Frame only ships with a few.
 Not anymore. In this repo you will find all the fonts from Google Fonts converted into a MSDF format supported by A-Frame.
-There is more than 2000 of them...😂
+There are more than 2000 of them...😂
 
 ![](static/screenshot.png)
 
