@@ -1,5 +1,5 @@
 {
-  "name": "a-fonts",
+  "name": "aframe-fonts",
   "version": "1.0.0",
   "description": "Google Fonts for A-Frame",
   "main": "generate.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/etiennepinchon/a-fonts.git"
+    "url": "git+https://github.com/etiennepinchon/aframe-fonts.git"
   },
   "keywords": [
     "A-Frame",
