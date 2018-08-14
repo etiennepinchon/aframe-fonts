@@ -18,7 +18,7 @@ generateBMFont(path.join(pathToFont, `${name}.ttf`), (err, textures, font) => {
 
   // Create png
   textures.forEach((sheet, index) => {
-    font.pages.push(`${name}png`);
+    font.pages.push(`${name}.png`);
     fs.writeFile(path.join(pathToFont,`${name}.png`), sheet, (err) => {
       if (err) {
         return console.log(`Error on ${name}`, err);
